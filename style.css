@@ -83,4 +83,9 @@ footer ul li{
     padding: 0px 50px;
     color: #777;
 }
+.sticky{
+    position: sticky;
+    top: 10px;
+    background-color: white;
+}
     
