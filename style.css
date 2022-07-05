@@ -62,7 +62,7 @@ a{
     color: #777;
 }
 hr{
-    color: solid #eee;
+    border-top: solid #eee;
 }
 .Bonus section{
     display: inline-block;
