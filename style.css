@@ -15,7 +15,7 @@ header{
     text-align: left;
 }
 
-nav > ul li{
+nav ul li{
     display: inline-block;
     color: gray;
     padding:3px
@@ -33,13 +33,17 @@ nav > ul{
 main {
 word-wrap: break-word;
 width: 610px;
+text-align: justify;
 }
 .more-articles{
     align-items: center;
 }
-section{ 
+.more-articles section{ 
     width: 310px;
     display: inline-block;
+    text-align: justify;
+    padding: 8px;
+
 }
 header{
     font-family: Abril Fatface;
@@ -55,8 +59,28 @@ h5{
 }
 a{
     text-decoration: none;
+    color: #777;
 }
 hr{
     color: solid #eee;
+}
+.Bonus section{
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    padding: 4px;
+}
+h4{
+
+}
+footer ul{
+    list-style: none;
+    border-top: solid #eee;
+    border-bottom: solid #eee;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0px 50px;
+    color: #777;
 }
     
