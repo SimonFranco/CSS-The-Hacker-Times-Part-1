@@ -27,26 +27,36 @@ body{
 nav > ul{
     list-style: none;
     border-top: solid #eee;
-    border-bottom:  solid#eee
+    border-bottom:  solid#eee;
 
 }
 main {
 word-wrap: break-word;
-width: 608px;
+width: 610px;
 }
 .more-articles{
-    display: flex;
-    width: 100px;
-    padding: 5px;
-    margin:-15px
+    align-items: center;
 }
 section{ 
-    padding:15px;
+    width: 310px;
+    display: inline-block;
 }
 header{
     font-family: Abril Fatface;
 }
 h2, h4{
     font-family: Roboto Slab;
+}
+a:link{
+    color: #777;
+}
+h5{
+   color: #dd3232; 
+}
+a{
+    text-decoration: none;
+}
+hr{
+    color: solid #eee;
 }
     
